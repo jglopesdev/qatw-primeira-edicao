@@ -1,5 +1,5 @@
 # Feito com Muito S2 e Muito Café :)
-
+# Senha do usuario da aplicação paybank (teclado virtual): 147258
 services:
   # Serviço de banco de dados PostgreSQL
   db:
@@ -89,9 +89,9 @@ services:
     environment:
       - REDIS_HOST=paybank-redis                             # Host do Redis
       - REDIS_PORT=6379                                      # Porta do Redis
-      - MAILTRAP_ACCOUNT_ID=3365587                          # ID da conta do Mailtrap
-      - MAILTRAP_TOKEN=8aa3830ddaeaadd601afe16cae5da073      # Token do Mailtrap
-      - MAILTRAP_INBOX_ID=3365587                            # ID da caixa de entrada do Mailtrap
+      - MAILTRAP_ACCOUNT_ID=3458011                          # ID da conta do Mailtrap
+      - MAILTRAP_TOKEN=f544539d5860a1a5101f5516334f83d8      # Token do Mailtrap
+      - MAILTRAP_INBOX_ID=3458011                            # ID da caixa de entrada do Mailtrap
       - TZ=America/Sao_Paulo                                 # Fuso horário
     restart: unless-stopped
 
